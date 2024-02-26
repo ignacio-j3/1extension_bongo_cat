@@ -1,7 +1,10 @@
 {
   "name": "extension",
   "displayName": "extension",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ignacio-j3/1extension_bongo_cat"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.86.0"
@@ -14,8 +17,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.helloWorld",
-        "title": "Hello World"
+        "command": "extension.bongocattec",
+        "title": "Bongo Cat Tec"
       }
     ]
   },
